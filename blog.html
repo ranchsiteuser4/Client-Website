@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-image: url("western.jpg");}
+h1   {color: white; font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif}
+h2   {color: red; font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif}
+p    {color: black; font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif}
+#nav {
+width:750px;
+margin:0 auto;
+list-style:none;
+}
+#nav li {
+float:left;
+}
+#nav a {
+display:block;
+text-align:center;
+width:150px; /* fixed width */
+text-decoration:none; 
+}
+ul {
+  list-style-type: none;
+}
+ul li {
+    display: inline;
+    list-style-type: none;
+}
+ul {
+  text-align:center;
+}
+
+li a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+</style>
+</head>
+<body>
+    <style>
+  h1{ 
+ background-color: hsla(30, 45%, 50%, 1);   
+ padding: 10px;
+      } 
+ </style>
+<h1><center>BLOG</center></h1>
+<ul>
+  <li><a href="index.html"> HOME </a></li>
+  <li><a href="our story and vision.html">OUR STORY AND VISION</a></li>
+  <li><a href="testimonials.html">TESTIMONIALS</a></li>
+  <li><a href="scheduling.html">SCHEDULING</a></li>
+  <li><a href="blog.html">BLOG</a></li>
+  <li><a href="donations.html">DONATIONS</a></li>
+</ul>
+<br></br>
+<center>
+<div class="R&R" style="max-width:500px">
+ <img class="mySlides" src="secondmt.jpg" style="width:100%" border="5">
+  <img class="mySlides" src="trees.jpg" style="width:100%" border="5">
+  <img class="mySlides" src="moresnow.jpg" style="width:100%" border="5">
+  </center>
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 5000); // Change image every 5 seconds
+}
+</script>
+ <style>
+  p{ 
+ background-color: hsla(30, 45%, 50%, 1);   
+ padding: 10px;
+      } 
+ </style>
+<p><font size="5">Over the years, it has been my joy to work with parents on a one to one basis. Our sessions together have been weekly by phone, using a workbook that takes them through the grieving process. 
+I see them growing, healing and becoming transformed from the hurt and brokenness of losing a child. It's still a journey for them, and will be; but the growth, awareness and understanding that comes through their grief work is quite rewarding to see. I am truly Blessed to work with such wonderful Mothers.</font></br></p> 
+
+</body>
+</html>
